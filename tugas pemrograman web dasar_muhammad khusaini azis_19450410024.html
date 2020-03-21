@@ -1,0 +1,259 @@
+<html>
+<head>
+           <title> MUHAMMAD KHUSAINI AZIS_19450410024_TEKNOLOGI INFORMASI </title>
+<body>
+<h1> MUHAMMAD KHUSAINI AZIS_19450410024_TEKNOLOGI INFORMASI </h1>
+<!--1. Kode Dasar HTML Untuk Membuat Table-->
+	 <table border="1">
+    	<!--baris pertama terdiri dari 3 kolom-->
+    	<tr>
+    	<td>Kolom ke 1 baris ke 1</td>
+    	<td>Kolom ke 2 baris ke 1</td>
+    	<td>Kolom ke 3 baris ke 1</td>
+    	</tr>
+ 
+    	<!--baris kedua terdiri dari 3 kolom-->
+    	<tr>
+    	<td>Kolom ke 1 baris ke 2</td>
+    	<td>Kolom ke 2 baris ke 2</td>
+    	<td>Kolom ke 3 baris ke 2</td>
+    	</tr>
+    	</table>
+
+	
+<!--1.1 Cara Membuat Tabel HTML yang Bagus-->
+	
+	<!--1.1.1 Contoh tabel HTML menggunakan atribut Width-->
+	<table border="1">
+    	<!--baris pertama terdiri dari 3 kolom-->
+   	 <tr>
+   	 <td width="50px">No</td>
+   	 <td width="150px">Nama Lengkap</td>
+   	 <td width="100px">Prodi</td>
+	 <td width="200px">NIM</td>
+	 </tr>
+ 
+   	<!--baris kedua terdiri dari 3 kolom-->
+    	<tr>
+    	<td>1</td>
+    	<td>Muhammad Khusaini Azis</td>
+    	<td>Teknologi Informasi</td>
+    	<td>19450410024</td>
+    	</tr>
+    	</table>
+
+	
+	<!--1.1.2 Mengatur Alignt Text pada Tabel-->
+	<table border="1">
+    	<!--baris pertama terdiri dari 3 kolom-->
+    	<tr align="center">
+    	<td width="50px">No</td>
+    	<td width="150px">Nama Lengkap</td>
+    	<td width="100px">Prodi</td>
+	<td width="200px">NIM</td>
+    	</tr>
+ 
+    	<!--baris kedua terdiri dari 3 kolom-->
+    	<tr>
+    	<td align="center">1</td>
+   	<td>Muhammad Khusaini Azis</td>
+    	<td>Teknologi Informasi</td>
+    	<td>19450410024</td>
+    	</tr>
+    	</table>
+
+	
+	<!--1.1.3 Membuat kepala tabel dan memberi background warna-->
+	<table border="1">
+    	<!--baris pertama terdiri dari 3 kolom-->
+    	<tr align="center" bgcolor="pink">
+    	<th width="50px">No</th>
+    	<td width="150px">Nama Lengkap</td>
+    	<td width="100px">Prodi</td>
+	<td width="200px">NIM</td>
+    	</tr>
+ 
+    	<!--baris kedua terdiri dari 3 kolom-->
+    	<tr>
+    	<td align="center">1</td>
+   	<td>Muhammad Khusaini Azis</td>
+    	<td>Teknologi Informasi</td>
+    	<td>19450410024</td>
+    	</tr>
+    	</table>
+
+<!--1.2. Membuat Tabel html Colspan Rowspan-->
+
+	<!--1.2.1 Colspan-->	
+	 <table border="1">
+    	<tr align="center" bgcolor="pink">
+    	<th width="50px">No</th>
+    	<th width="150px">Nama Lengkap</th>
+    	<th width="100px">Prodi</th>
+    	<th width="200px">NIM</th>
+    	<th width="300px" colspan="2">Tempat , Tgl. Lahir</th>
+          	
+		<!--tag kolom 7 dihilangkan--->
+    	</tr>
+ 
+    	<tr>
+    	<td align="center">1</td>
+    	<td>Muhammad Khusaini Azis</td>
+    	<td>Teknologi Informasi</td>
+    	<td>19450410001</td>
+    	<td>Blora</td>
+    	<td>24 Maret 2001</td>
+    	</tr>
+ 
+    	<tr>
+    	<td align="center">2</td>
+    	<td>Muhammad Aji</td>
+    	<td>Teknologi Informasi</td>
+    	<td>19450410002</td>
+    	<td>Blora</td>
+    	<td>25 Maret 2001</td>
+    	</tr>
+    	</table>
+
+	<!--1.2.2 Rowspan-->
+	<table border="1">
+    	<tr>
+    	<td width="100px" rowspan="2">1</td>
+    	<td width="100px">2</td>
+ 
+    	<tr>
+    	<!--dihilangkan karena sudah digabung dengan baris atas-->
+    	<td width="100px">2</td>
+    	</tr>
+	</table>
+
+<!--1.3 Membuat Tabel Layout Web-->
+	<table border="1" width="900px">
+    	<!--header-->
+    	<tr bgcolor="cyan">
+    	<td colspan="2" height="90px">Header 1</td>
+    	<!-- tag dihilangkan-->
+    	</tr>
+ 
+    	<!--body-->
+    	<tr>
+    	<td width="600px" height="400px" bgcolor="pink">body 1</td>
+    	<td width="300px" bgcolor="green">body 2</td>
+    	</tr>
+ 
+    	<!--footer-->
+    	<tr bgcolor="cyan">
+    	<td colspan="2" height="120px">Footer 1</td>
+    	<!-- tag dihilangkan-->
+    	</tr>
+	</table>
+
+<!--1.4 Membuat Tabel didalam Tabel HTML-->
+	<table border="1" width="900px">
+    	<!--header-->
+    	<tr bgcolor="cyan">
+    	<td colspan="2" height="90px">Header 1</td>
+    	<!-- tag dihilangkan-->
+    	</tr>
+ 
+    	<!--body-->
+    	<tr>
+    	<td width="600px" height="400px" bgcolor="purple" valign="top">
+    	<!--kolom body1-->
+        	<table border="1">
+        	<tr bgcolor="yellow">
+        	<td width="200px">Nama </td>
+        	<td width="200px">NIM</td>
+        	<td width="200px">Prodi</td>
+        	</tr>
+        	</table>
+    	</td>
+    	<td width="300px" bgcolor="blue">body 2</td>
+    	</tr>
+ 
+    	<!--footer-->
+    	<tr bgcolor="cyan">
+    	<td colspan="2" height="120px">Footer 1</td>
+    	<!-- tag dihilangkan-->
+    	</tr>
+
+<!--2. Menampilkan Gambar Menggunakan HTML-->
+		
+	<!--2.1 Kode dasar / tag HTML untuk menampilkan Image / Gambar-->
+	<img src="Menari_dengan_bayangan.jpg">
+	
+	<!--2.1.1 Penambahan Atribut Height dan Width-->
+	<img src="Hindia.jpg" height="400px" width="600px">
+
+	<!--2.1.2 Penambahan Atribut Alt -->
+	<img alt="deskripsi gambar" src="Belum Tidur.jpg" height="400px" width="600px">
+
+<!--2.2 Contoh Menampilkan Gambar-->
+	<img alt="foto hindia" src="file:///C:/Users/lenovo/Pictures/Membasuh.jpg" height="400px" width="600px">
+
+<!--2.3 Contoh Menampilkan Gambar dalam Tabel HTML-->
+	<table border="1">
+	<!--baris pertama pic1,pic2,pic3-->
+	<tr>
+	<td width="250px" height="250px"><img src="file:///C:/Users/lenovo/Pictures/power rangers biru.jpg" width="250px" height="250px"></td>
+	<td width="250px" height="250px"><img src="file:///C:/Users/lenovo/Pictures/power rangers hijau.jpg" width="250px" height="250px"></td>
+	<td width="250px" height="250px"><img src="file:///C:/Users/lenovo/Pictures/power rangers hitam.jpg" width="250px" height="250px"></td>
+	</tr> 
+	<!--baris kedua pic3,pic4,pic5-->
+	<tr>
+	<td width="250px" height="250px"><img src="file:///C:/Users/lenovo/Pictures/power rangers kuning.jpg" width="250px" height="250px"></td>
+	<td width="250px" height="250px"><img src="file:///C:/Users/lenovo/Pictures/power rangers merah.png" width="250px" height="250px"></td>
+	<td width="250px" height="250px"><img src="file:///C:/Users/lenovo/Pictures/power rangers pink.png" width="250px" height="250px"></td>
+	</tr>
+	</table>
+	
+<!--3. Menampilkan Video Menggunakan HTML-->
+
+	<!--3.1 Contoh Menampilkan Video Menggunakan HTML-->
+	<h1>Contoh Tag Video</h1>
+	<video src="C:\Users\lenovo\videos\video 1.mp4" controls>
+	</video>	
+
+	<!--3.2 Latihan Membuat Galery Video Menggunakan HTML-->
+	<center><h3>Selamat Datang di Website Kumpulan Video Mantap</h3></center>
+	<table border="1" align="center">
+	<tr>
+	<!--video1-->
+	<td width="300px" height="250px">
+	<video loop="loop" height="250px width="300px" src="file:///C:/Users/lenovo/videos/video 2.mp4" controls>
+	</td>
+     
+	<!--video2-->
+	<td width="300px" height="250px">
+	<video loop="loop" height="250px width="300px" src="file:///C:/Users/lenovo/videos/video 3.mp4" controls>
+	</td>
+ 
+	<!--video3-->
+	<td width="300px" height="250px">
+	<video loop="loop" height="250px width="300px" src="file:///C:/Users/lenovo/videos/video 4.mp4" controls>
+	</td>
+	</tr>
+	 
+	<!--video4-->
+	<tr>	
+	<td width="300px" height="250px">
+	<video loop="loop" height="250px width="300px" src="file:///C:/Users/lenovo/videos/video 5.mp4" controls>
+	</td>
+     
+	<!--video5-->
+	<td width="300px" height="250px">
+	<video loop="loop" height="250px width="300px" src="file:///C:/Users/lenovo/videos/video 6.mp4" controls>
+	</td>
+ 
+	<!--video6-->
+	<td width="300px" height="250px">
+	<video loop="loop" height="250px width="300px" src="file:///C:/Users/lenovo/videos/video 7.mp4" controls>
+	</td>
+	</tr>
+	</table>
+
+
+			
+</body>
+</head>
+</html>
